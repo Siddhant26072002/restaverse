@@ -329,9 +329,11 @@ body {
 .company label,
 .resids label,
 .text-area label {
-  size: 14px;
-  line-height: 16.94px;
-  color:#7C7C7C;
+  
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+    
 }
 
 .text-area input{
@@ -455,6 +457,36 @@ body {
   position: absolute;
   left:190px;
   top:-55px;
+}
+
+.rocket-circle1{
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  position: absolute;
+  top:-70px;
+  left:70px;
+  border-radius: 50%;
+}
+
+.rocket-circle2 {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+  position: absolute;
+  top: -100px;
+  left: 270px;
+  border-radius: 50%;
+}
+
+.rocket-circle3 {
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+  position: absolute;
+  top: -115px;
+  left: 255px;
+  border-radius: 50%;
 }
 
 /* OpenPositions in Careers Page */

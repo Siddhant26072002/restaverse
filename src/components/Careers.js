@@ -5,7 +5,6 @@ export default function
 () {
   return (
     <div className='careers'>
-
       <div className='career-image'>
         <div className='career-image-text'>
           <span className='career-title'>
@@ -18,6 +17,9 @@ You can join us and build it.</span>
         <div className='career-rocket'>
            <img className="rocket" src="./images/image 35.png"></img>
            <div className='clouds'>
+            <div className='rocket-circle1'></div>
+            <div className='rocket-circle2'></div>
+            <div className='rocket-circle3'></div>
             <img className='mid-cloud' src="./images/image 28.png"></img>
             <img className='left-cloud' src="./images/image 29.png"></img>
             
